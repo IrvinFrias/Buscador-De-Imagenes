@@ -10,7 +10,7 @@ const FeedGalery = ({photos}) =>{
                     photos.map(photo =><Photo
                         key={photo.id}
                         img={photo.urls.regular}
-                        html={photo.html}
+                        html={photo.links.html}
                         description={photo.description}
                         author={photo.name}
                     />)
